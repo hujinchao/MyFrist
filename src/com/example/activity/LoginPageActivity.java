@@ -17,7 +17,7 @@ import com.example.idcard.R;
 import com.example.util.Skip;
 
 public class LoginPageActivity extends Activity implements OnClickListener {
-
+//aaaa
 	private TextView center_text;
 	private ImageView left_image;
 	private ImageView right_image;
