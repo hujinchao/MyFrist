@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bule_tra">#0000AAFF</color>
+    <color name="bule">#00AAFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#CB2021</color>
+    <color name="green">#704aad75</color>
+    <color name="green_true">#3a9561</color>
+
+</resources>

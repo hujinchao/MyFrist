@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popu_view"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="姓 名：付朝伟"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:background="@null" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/card_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="性 别：男"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="5dip"
+                    android:layout_height="match_parent"
+                    android:background="@null" />
+
+                <TextView
+                    android:id="@+id/card_nation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="民 族：汉"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/card_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出 生：1995年11月1日"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/card_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="住 址：婺源县"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/card_touxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="15dip"
+            android:paddingTop="15dip"
+            android:padding="3dip"
+            android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="身份证号：362334199511017117"
+        android:textColor="@color/white" />
+
+</LinearLayout>

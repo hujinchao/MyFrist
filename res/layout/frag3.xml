@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sss"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center_horizontal"
+                android:text="@string/manage_infor"
+                android:textSize="@dimen/title_text_size" />
+
+            <ImageView
+                android:id="@+id/head_frag3"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_text_size" />
+
+                <EditText
+                    android:id="@+id/name_frag3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/frame_view"
+                    android:hint="@string/manager"
+                    android:padding="5dip"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password_slip"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_text_size" />
+
+                <EditText
+                    android:id="@+id/password_frag3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/frame_view"
+                    android:hint="@string/password"
+                    android:padding="5dip"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/dete_frag3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:background="@drawable/button_click"
+                android:padding="10dip"
+                android:text="@string/dete_mod"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_text_size" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
